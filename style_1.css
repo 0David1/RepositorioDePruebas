@@ -4,7 +4,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 125%;
     justify-content: center;
-    margin-top: auto;
+    align-self: flex-end!important;
 }
 
 .nav-logo{
@@ -12,16 +12,19 @@
     height: auto;
 }
 
-.nav-container{
+.navbar{
     background-color: cornflowerblue;
+}
+
+.nav-container{
     display: flex;
-    max-height: 100px;
+    flex-wrap: inherit;
     padding: 0.5rem 1rem;
 }
 
 .nav-login{
     margin-left: auto;
-    padding-top: 0.5em;
+    padding-top: 1.5em;
 }
 
 .nav-list li{
