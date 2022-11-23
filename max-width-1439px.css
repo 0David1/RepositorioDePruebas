@@ -1,0 +1,62 @@
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .body{
+        overflow-x: auto;
+    }
+
+    .nav-program-name{
+        color:black;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 150%;
+        justify-content: center;
+        align-self: flex-end!important;
+        margin-bottom: 0;
+    }
+    
+    .nav-logo{
+        max-width: 200px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+    .navbar{
+        background-color: cornflowerblue;
+    }
+    
+    .nav-container{
+        display: flex;
+        flex-wrap: inherit;
+        padding: 0.5rem 1rem;
+        max-height: 100px;
+    }
+    
+    .nav-login{
+        margin-left: auto;
+        padding: 0;
+        margin-top: 0;
+    }
+    
+    .nav-list li{
+        list-style: none;
+        display:inline;
+        padding-left:3px;
+        padding-right:3px;
+    }
+
+    .nav-list{
+        margin-bottom: 0;
+    }
+    
+    .nav-social-networks{
+        max-width: 60px;
+        
+    }
+
+    .btn-login{
+        font-size: 25px;
+        width: 100px;
+        height: 50px;
+        margin-top: 0;
+    }
+}
+
