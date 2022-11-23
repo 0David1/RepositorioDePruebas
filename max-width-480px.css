@@ -16,8 +16,8 @@
     
     .nav-logo{
         max-width: 200px;
-        margin-left: 25px;
-        margin-right: 25px;
+        margin-left: 0;
+        margin-right: 0;
     }
     
     .navbar{
@@ -46,6 +46,7 @@
 
     .nav-list{
         margin-bottom: 0;
+        padding: 0;
     }
     
     .nav-social-networks{
