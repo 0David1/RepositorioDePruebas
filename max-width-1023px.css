@@ -76,15 +76,21 @@
     }
     
     .profile-information{
-        padding-top: 50px;
-        padding-left: 50px;
+        padding-top: 40px;
+        padding-left: 30px;
     }
     
     .profile-photo{
         border-radius: 200px;
         width: 250px;
         height: 250px;
-        max-width: 33%;
+        max-width: 100%;
         height: auto;
     }
+
+    .profile-name{
+        text-align: center;
+        padding-top: 10px;
+    }
+
 }
