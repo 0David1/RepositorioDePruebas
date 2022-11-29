@@ -1,10 +1,9 @@
-@media screen and (min-width: 480px) and (max-width: 639px){
+@media screen and (min-width: 1024px){
     .body{
         overflow-x: auto;
     }
 
     .nav-program-name{
-        display: none;
         color:black;
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -21,11 +20,10 @@
     }
     
     .navbar{
-        background-color: cornflowerblue;
+        background-color: rgb(30, 30, 30);
     }
     
     .nav-container{
-        display: flex;
         flex-wrap: inherit;
         padding: 0.5rem 1rem;
         max-height: 100px;
@@ -50,7 +48,7 @@
     
     .nav-social-networks{
         max-width: 60px;
-        display: none;
+        
     }
 
     .btn-login{
@@ -60,3 +58,4 @@
         margin-top: 0;
     }
 }
+

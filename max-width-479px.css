@@ -15,17 +15,17 @@
     }
     
     .nav-logo{
+        display: none;
         max-width: 200px;
         margin-left: 0;
         margin-right: 0;
     }
     
     .navbar{
-        background-color: cornflowerblue;
+        background-color: rgb(30, 30, 30);
     }
     
     .nav-container{
-        display: flex;
         flex-wrap: inherit;
         padding: 0.5rem 1rem;
         max-height: 100px;
