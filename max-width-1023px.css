@@ -3,9 +3,11 @@
         overflow-x: auto;
     }
 
+    /*Nav*/
+
     .nav-program-name{
         display: none;
-        color:black;
+        color:white;
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 150%;
@@ -57,5 +59,32 @@
         width: 100px;
         height: 50px;
         margin-top: 0;
+    }
+
+    /*Header*/
+
+    header{
+        background-color: black;
+    }
+    
+    .header-container{
+        background-color: white;
+    }
+    
+    .img-fluid{
+        width: 100%;
+    }
+    
+    .profile-information{
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+    
+    .profile-photo{
+        border-radius: 200px;
+        width: 250px;
+        height: 250px;
+        max-width: 33%;
+        height: auto;
     }
 }
