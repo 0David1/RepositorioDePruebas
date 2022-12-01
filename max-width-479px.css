@@ -66,16 +66,23 @@
 
     /*Header*/
     
+    header{
+        padding: 0!important;
+    }
+
     .header-container{
         background-color: white;
+        text-align: center;
+        margin: 0!important;
     }
     
     .img-fluid{
         width: 100%;
+        padding: 0;
     }
     
     .profile-information{
-        padding-top: 40px;
+        padding-top: 20px;
         padding-left: 30px;
     }
     
@@ -92,10 +99,15 @@
         padding-top: 10px;
     }
 
-    .profile-information{
-        padding-top: 20px;
-        padding-left: 30px;
+    .profile-subtitle{
+        margin-bottom: 10px;
     }
 
+    /*Section*/
+
+    .education{
+        background-color: gray;
+        padding: 50px 10px 0 10px;
+    }
 
 }

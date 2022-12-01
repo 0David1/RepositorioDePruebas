@@ -65,10 +65,12 @@
 
     header{
         background-color: black;
+        padding: 0!important;
     }
     
     .header-container{
         background-color: white;
+        margin: 0!important;
     }
     
     .img-fluid{
@@ -93,4 +95,18 @@
         padding-top: 10px;
     }
 
+    .profile-title{
+        margin-bottom: 30px;
+    }
+
+    .profile-description{
+        font-size: x-large;
+    }
+
+    /*Section*/
+
+    .education{
+        background-color: gray;
+        padding: 50px 40px 0 40px;
+    }
 }
