@@ -2,7 +2,7 @@
     .body{
         overflow-x: auto;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        background-color: black;
+        text-align: center;
     }
 
     /*Nav*/
@@ -10,7 +10,6 @@
     .nav-program-name{
         display: none;
         color:white;
-        text-align: center;
         font-size: 150%;
         justify-content: center;
         align-self: flex-end!important;
@@ -83,7 +82,6 @@
     
     .profile-information{
         padding-top: 20px;
-        padding-left: 30px;
     }
     
     .profile-photo{
@@ -99,6 +97,11 @@
         padding-top: 10px;
     }
 
+    .profile-title{
+        font-size: 1.4em;
+        word-wrap: break-word;
+    }
+
     .profile-subtitle{
         margin-bottom: 10px;
     }
@@ -106,8 +109,40 @@
     /*Section*/
 
     .education{
-        background-color: gray;
+        background-color: rgb(220, 220, 220);;
         padding: 50px 10px 0 10px;
     }
 
+    .education-container{
+        word-wrap: break-word;
+        padding: 0;
+    }
+
+    .margin{
+        margin: 0;
+        padding-bottom: 50px;
+    }
+
+    /*Section skills*/
+
+    .skill-container{
+        padding: 50px 40px 0 40px;
+    }
+
+    .progress{
+        height: 30px;
+        margin-bottom: 30px;
+    }
+
+    .skill-name{
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        color: var(--bs-progress-bar-color);
+        text-align: center;
+        white-space: nowrap;
+        background-color: rgb(76, 76, 173);
+    }
 }

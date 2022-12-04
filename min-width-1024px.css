@@ -1,13 +1,14 @@
 @media screen and (min-width: 1024px){
     .body{
         overflow-x: auto;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
     }
 
     /*Nav*/
 
     .nav-program-name{
         color:white;
-        text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 150%;
         justify-content: center;
@@ -78,12 +79,10 @@
     
     .profile-information{
         padding-top: 40px;
-        padding-left: 30px;
     }
     
     .profile-photo{
         border-radius: 200px;
-        width: 250px;
         height: 250px;
         max-width: 100%;
         height: auto;
@@ -104,9 +103,44 @@
     /*Section*/
 
     .education{
-        background-color: gray;
+        background-color: rgb(220, 220, 220);;
         padding: 50px 30px 0 30px;
     }
 
-}
+    .education-container{
+        word-wrap: break-word;
+        padding: 0;
+    }
 
+    .margin{
+        margin: 0;
+        padding-bottom: 50px;
+    }
+
+    /*Section skills*/
+
+    .skills{
+        padding: 50px 30px 0 30px;
+    }
+
+    .skill-container{
+        padding: 50px 40px 0 40px;
+    }
+
+    .progress{
+        height: 30px;
+        margin-bottom: 30px;
+    }
+
+    .skill-name{
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        color: var(--bs-progress-bar-color);
+        text-align: center;
+        white-space: nowrap;
+        background-color: rgb(76, 76, 173);
+    }
+}
