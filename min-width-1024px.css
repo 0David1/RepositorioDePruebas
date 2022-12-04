@@ -71,6 +71,7 @@
     .header-container{
         background-color: white;
         margin: 0!important;
+        padding: 40px 0 40px 0;
     }
     
     .img-fluid{
