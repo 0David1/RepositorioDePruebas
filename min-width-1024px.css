@@ -101,11 +101,11 @@
         font-size: x-large;
     }
 
-    /*Section*/
+    /*Section education*/
 
     .education{
-        background-color: rgb(220, 220, 220);;
-        padding: 50px 30px 0 30px;
+        padding: 40px 0 40px 0;
+        background-color: rgb(150, 150, 150);
     }
 
     .education-container{
@@ -113,28 +113,53 @@
         padding: 0;
     }
 
-    .margin{
-        margin: 0;
-        padding-bottom: 50px;
+    .education-first-col>h2{
+        max-width: 100%;
+        
     }
+
+    .education-logo{
+        padding: 5px;
+        max-width: 60%;
+        
+    }
+
+    .row{
+        margin: 0;
+        padding: 20px 0 20px 0;
+    }
+
 
     /*Section skills*/
 
     .skills{
-        padding: 50px 30px 0 30px;
+        padding: 40px 30px 40px 30px;
+    }
+
+    .skill-title{
+        padding-bottom: 30px;
     }
 
     .skill-container{
-        padding: 50px 40px 0 40px;
+        padding: 50px 40px 70px 40px;
     }
 
     .progress{
         height: 30px;
-        margin-bottom: 30px;
+        border-radius: 0 10px 10px 0!important;
+    }
+
+    .skill{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
     }
 
     .skill-name{
-        width: 100px;
+        font-size: 1.25rem;
+        color: #fff!important;
+        border-radius: 10px 0 0 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -143,5 +168,13 @@
         text-align: center;
         white-space: nowrap;
         background-color: rgb(76, 76, 173);
+    }
+    /*Section proyects*/
+    .proyects{
+        background-color: rgb(150, 150, 150);
+    }
+
+    .proyect-logo{
+        max-width: 60%;
     }
 }
