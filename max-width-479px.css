@@ -13,7 +13,7 @@
     }
 
     /*Nav*/
-{
+
     .nav-program-name{
         display: none;
         color:white;
@@ -69,9 +69,9 @@
         height: 50px;
         margin-top: 0;
     }
-}
+
     /*Section about*/
-{
+
     .about-container{
         background-color: white;
         text-align: center;
@@ -109,9 +109,9 @@
     .profile-subtitle{
         margin-bottom: 10px;
     }
-}
+
     /*Section education*/
-{
+
     .section-education{
         background-color: rgb(150, 150, 150);
         padding: 14rem 0 14rem 0;
@@ -134,9 +134,9 @@
     .education-logo{
         max-width: 100%;
     }
-}
+
     /*Section skills*/
-{
+
     .skills{
         padding: 40px 0 40px 0;
     }
@@ -178,9 +178,9 @@
         white-space: nowrap;
         background-color: rgb(76, 76, 173);
     }
-}
+
     /*Section proyects*/
-{
+
     .proyects{
         background-color: rgb(150, 150, 150);
     }
@@ -188,5 +188,5 @@
     .proyect-logo{
         max-width: 100%;
     }
-}
+
 }
