@@ -75,9 +75,9 @@
     /*Section about*/
     
     .about-container{
-        background-color: white;
         margin: 0!important;
-        padding: 14rem 0 14rem 0;
+        padding: 15rem 0 15rem 0;
+        background-color: rgb(240, 240, 240);
     }
     
     .img-fluid{
@@ -110,7 +110,7 @@
     /*Section education*/
 
     .section-education{
-        background-color: rgb(150, 150, 150);
+        background-color: rgb(230, 230, 230);
         padding: 20rem 0 20rem 0;
     }
 
@@ -121,19 +121,17 @@
 
     .education-first-col>h2{
         max-width: 100%;
-        
     }
 
-    .education-logo{
-        padding: 5px;
-        max-width: 60%;
-        
+    .education-second-col{
+        padding-right: 1rem;
     }
 
     /*Section skills*/
 
     .skills{
         padding: 20rem 0 20rem 0;
+        background-color: rgb(240, 240, 240);
     }
     
     .skill-title{
@@ -171,8 +169,8 @@
     }
     /*Section proyects*/
     .proyects{
-        background-color: rgb(150, 150, 150);
-        padding: 14rem 0 14rem 0;
+        background-color: rgb(230, 230, 230);
+        padding: 15rem 0 15rem 0;
     }
 
     .proyect-logo{
