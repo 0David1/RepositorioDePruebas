@@ -5,8 +5,15 @@
         text-align: center;
     }
 
-    /*Nav*/
+    .flex {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
+    /*Nav*/
+{
     .nav-program-name{
         display: none;
         color:white;
@@ -62,18 +69,14 @@
         height: 50px;
         margin-top: 0;
     }
-
-    /*Header*/
-    
-    header{
-        padding: 0!important;
-    }
-
-    .header-container{
+}
+    /*Section about*/
+{
+    .about-container{
         background-color: white;
         text-align: center;
         margin: 0!important;
-        padding: 40px 0 40px 0;
+        padding: 10rem 0 10rem 0;
     }
     
     .img-fluid{
@@ -82,7 +85,7 @@
     }
     
     .profile-information{
-        padding-top: 20px;
+        padding: 2rem 0 2rem 0;
     }
     
     .profile-photo{
@@ -106,12 +109,12 @@
     .profile-subtitle{
         margin-bottom: 10px;
     }
-
+}
     /*Section education*/
-
-    .education{
+{
+    .section-education{
         background-color: rgb(150, 150, 150);
-        padding: 50px 10px 0 10px;
+        padding: 14rem 0 14rem 0;
     }
 
     .education-container{
@@ -131,24 +134,23 @@
     .education-logo{
         max-width: 100%;
     }
-
-    .row{
-        margin: 0;
-        padding: 20px 0 20px 0;
-    }
-
+}
     /*Section skills*/
-  
+{
     .skills{
         padding: 40px 0 40px 0;
     }
 
+    .skill-container{
+        padding: 50px 0 50px 0;
+    }
+    
     .skill-title{
         padding-bottom: 30px;
     }
-
-    .skill-container{
-        padding: 50px 0 50px 0;
+    
+    .row-padding{
+        margin: 0 0 20px 0;
     }
 
     .progress{
@@ -176,8 +178,9 @@
         white-space: nowrap;
         background-color: rgb(76, 76, 173);
     }
-
+}
     /*Section proyects*/
+{
     .proyects{
         background-color: rgb(150, 150, 150);
     }
@@ -185,4 +188,5 @@
     .proyect-logo{
         max-width: 100%;
     }
+}
 }
