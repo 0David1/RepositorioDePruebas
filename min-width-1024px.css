@@ -12,6 +12,10 @@
         justify-content: center;
     }
 
+    .row {
+        margin: 0;
+    }
+
     /*Nav*/
 
     .nav-program-name{
@@ -106,8 +110,8 @@
     /*Section education*/
 
     .section-education{
-        padding: 14rem 0 14rem 0;
         background-color: rgb(150, 150, 150);
+        padding: 20rem 0 20rem 0;
     }
 
     .education-container{
@@ -129,11 +133,7 @@
     /*Section skills*/
 
     .skills{
-        padding: 40px 30px 40px 30px;
-    }
-
-    .skill-container{
-        padding: 50px 40px 70px 40px;
+        padding: 20rem 0 20rem 0;
     }
     
     .skill-title{
@@ -172,6 +172,7 @@
     /*Section proyects*/
     .proyects{
         background-color: rgb(150, 150, 150);
+        padding: 14rem 0 14rem 0;
     }
 
     .proyect-logo{
