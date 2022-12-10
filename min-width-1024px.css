@@ -76,7 +76,7 @@
     
     .about-container{
         margin: 0!important;
-        padding: 15rem 0 15rem 0;
+        padding: 20rem 0 20rem 0;
         background-color: rgb(240, 240, 240);
     }
     
@@ -84,23 +84,9 @@
         width: 100%;
     }
     
-    .profile-information{
-        padding-top: 40px;
-    }
-    
     .profile-photo{
         border-radius: 200px;
-        height: 250px;
-        max-width: 100%;
-        height: auto;
-    }
-
-    .profile-name{
-        padding-top: 10px;
-    }
-
-    .profile-title{
-        margin-bottom: 30px;
+        max-width: 50%;
     }
 
     .profile-description{
@@ -144,20 +130,15 @@
         flex-direction: column;
         justify-content: center;
         padding: 0;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .bg-color-purple{
+        background-color: rgb(76, 76, 173);
     }
 
     .skill-name{
-        font-size: 1.25rem;
         color: #fff!important;
-        border-radius: 10px 0 0 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        overflow: hidden;
-        color: var(--bs-progress-bar-color);
-        text-align: center;
-        white-space: nowrap;
-        background-color: rgb(76, 76, 173);
     }
     /*Section proyects*/
     .proyects{
