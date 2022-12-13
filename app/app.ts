@@ -1,7 +1,6 @@
 let message: string = "Hello world";
 console.log(message);
 
-
 class Persona{
     private nombre: string;
     private apellido: string;
