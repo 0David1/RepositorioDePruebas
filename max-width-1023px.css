@@ -118,7 +118,7 @@
     /*Section skills*/
 
     .skills{
-        padding: 18rem 0 18rem 0;
+        padding: 18rem 1rem 18rem 1rem;
         background-color: rgb(240, 240, 240);
     }
 
@@ -150,6 +150,6 @@
     }
 
     .proyect-logo{
-        max-width: 70%;
+        max-width: 35%;
     }
 }
