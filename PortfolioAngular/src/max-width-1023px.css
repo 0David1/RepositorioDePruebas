@@ -1,0 +1,155 @@
+@media screen and (min-width: 480px) and (max-width: 1023px){
+    .body{
+        overflow: visible;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+
+    .flex {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+
+    /*Nav*/
+
+    .nav-program-name{
+        display: none;
+        color:white;
+        font-size: 150%;
+        justify-content: center;
+        align-self: flex-end!important;
+        margin-bottom: 0;
+    }
+    
+    .nav-logo{
+        max-width: 200px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+    .navbar{
+        background-color: rgb(30, 30, 30);
+    }
+    
+    .nav-container{
+        flex-wrap: inherit;
+        padding: 0.5rem 1rem;
+        max-height: 100px;
+    }
+    
+    .nav-login{
+        margin-left: auto;
+        padding: 0;
+        margin-top: 0;
+    }
+    
+    .nav-list li{
+        list-style: none;
+        display:inline;
+        padding-left:3px;
+        padding-right:3px;
+    }
+
+    .nav-list{
+        margin-bottom: 0;
+    }
+    
+    .nav-social-networks{
+        max-width: 60px;
+        display: none;
+    }
+
+    .btn-login{
+        font-size: 25px;
+        width: 100px;
+        height: 50px;
+        margin-top: 0;
+    }
+
+    /*Section about*/
+    
+    .about-container{
+        margin: 0!important;
+        padding: 19rem 0 19rem 0;
+        background-color: rgb(240, 240, 240);
+    }
+    
+    .img-fluid{
+        width: 100%;
+    }
+    
+    .profile-photo{
+        border-radius: 200px;
+        max-width: 70%;
+    }
+
+
+    .profile-description{
+        font-size: x-large;
+    }
+
+    /*Section education*/
+
+    .section-education{
+        background-color: rgb(230, 230, 230);
+        padding: 18rem 0 18rem 0;
+    }
+
+    .education-container{
+        word-wrap: break-word;
+        padding: 0;
+    }
+
+    .education-first-col>h2{
+        max-width: 100%;   
+    }
+
+    .education-second-col{
+        padding-right: 1rem;
+    }
+
+    /*Section skills*/
+
+    .skills{
+        padding: 18rem 1rem 18rem 1rem;
+        background-color: rgb(240, 240, 240);
+    }
+
+    .progress{
+        height: 30px;
+        border-radius: 0 10px 10px 0!important;
+    }
+
+    .skill{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .bg-color-purple{
+        background-color: rgb(76, 76, 173);
+    }
+
+    .skill-name{
+        color: #fff!important;
+    }
+
+    /*Section proyects*/
+    .proyects{
+        background-color: rgb(230, 230, 230);
+        padding: 18rem 0 18rem 0;
+    }
+
+    .proyect-logo{
+        max-width: 35%;
+    }
+}
