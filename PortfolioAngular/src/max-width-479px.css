@@ -56,12 +56,6 @@
         max-height: 100px;
     }
     
-    .nav-login{
-        margin-left: auto;
-        padding: 0;
-        margin-top: 0;
-    }
-    
     .nav-list li{
         list-style: none;
         display:inline;

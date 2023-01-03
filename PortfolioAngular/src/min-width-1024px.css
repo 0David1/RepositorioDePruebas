@@ -16,6 +16,10 @@
         margin: 0;
     }
 
+    .spacer {
+        flex: 1;
+    }
+
     /*Nav*/
 
     .nav-program-name{
@@ -41,12 +45,6 @@
         flex-wrap: inherit;
         padding: 0.5rem 1rem;
         max-height: 100px;
-    }
-    
-    .nav-login{
-        margin-left: auto;
-        padding: 0;
-        margin-top: 0;
     }
     
     .nav-list li{
