@@ -5,9 +5,8 @@ import { Page404Component } from './page404/page404.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 
 const routes: Routes = [
-  {path:'',redirectTo: '/portfolio', pathMatch: 'full'},
+  {path:'',redirectTo: '', pathMatch: 'full', component: PortfolioComponent},
   {path:'login', component: LoginComponent},
-  {path:'portfolio', component: PortfolioComponent},
   {path:'**', component: Page404Component},
 ];
 

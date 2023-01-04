@@ -2,6 +2,8 @@
   overflow-x: auto;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
+  justify-content: center;
+  height: 100%;
 }
 
 .row {
@@ -15,7 +17,6 @@
 .flex {
   align-items: center;
   display: flex;
-  flex-direction: row;
   justify-content: center;
 }
 
@@ -35,10 +36,7 @@
     font-size: 1.25rem;
   }
   .flex {
-    align-items: center;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
   }
   .flex > div {
     width: 100%;
@@ -47,6 +45,7 @@
 /*Nav*/
 .nav-program-name {
   color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 150%;
   justify-content: center;
   align-self: flex-end !important;
@@ -69,7 +68,6 @@
     display: none;
   }
 }
-
 .nav-container {
   flex-wrap: inherit;
   padding: 0.5rem 1rem;
