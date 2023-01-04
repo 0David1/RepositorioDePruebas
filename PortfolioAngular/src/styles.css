@@ -1,212 +1,195 @@
-    .body{
-        overflow-x: auto;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        text-align: center;
-    }
+.body {
+  overflow-x: auto;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
 
-    .row {
-        margin: 0;
-    }
+.row {
+  margin: 0;
+}
 
-    .spacer {
-        flex: 1;
-    }
+.spacer {
+  flex: 1;
+}
 
-    .flex {
-        align-items: center;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
+.flex {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
-    @media screen and (min-width: 1024px){
-        .fs{
-            font-size: x-large;
-        }
-    }
+@media screen and (min-width: 1024px) {
+  .fs {
+    font-size: x-large;
+  }
+}
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  .flex {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .flex > div {
+    width: 100%;
+  }
+}
+/*Nav*/
+.nav-program-name {
+  color: white;
+  font-size: 150%;
+  justify-content: center;
+  align-self: flex-end !important;
+  margin-bottom: 0;
+}
 
-    @media screen and (max-width: 480px){
-        h1{
-            font-size: 1.5rem;
-        }
+@media screen and (max-width: 1024px) {
+  .nav-program-name {
+    display: none;
+  }
+}
+.nav-logo {
+  max-width: 200px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
 
-        h2{
-            font-size: 1.25rem;
-        }
+@media screen and (max-width: 480px) {
+  .nav-logo {
+    display: none;
+  }
+}
+.navbar {
+  background-color: rgb(30, 30, 30);
+}
 
-        h3{
-            font-size: 1.25rem;
-        }
+.nav-container {
+  flex-wrap: inherit;
+  padding: 0.5rem 1rem;
+  max-height: 100px;
+}
 
-        .flex {
-            align-items: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
+.nav-list li {
+  list-style: none;
+  display: inline;
+  padding-left: 3px;
+  padding-right: 3px;
+}
 
-        .flex>div{
-                width: 100%;
-        }
-    }
-    /*Nav*/
+.nav-list {
+  margin-bottom: 0;
+}
 
-    .nav-program-name{
-        color:white;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 150%;
-        justify-content: center;
-        align-self: flex-end!important;
-        margin-bottom: 0;
-    }
+.nav-social-networks {
+  max-width: 50px;
+}
 
-    @media screen and (max-width: 1024px){
-        .nav-program-name{
-            display: none;
-        }
-    }
-    
-    .nav-logo{
-        max-width: 200px;
-        margin-left: 25px;
-        margin-right: 25px;
-    }
+@media screen and (max-width: 1024px) {
+  .nav-social-networks {
+    display: none;
+  }
+}
+.btn-login {
+  font-size: 25px;
+  width: 100px;
+  height: 50px;
+  margin-top: 0;
+}
 
-    @media screen and (max-width: 480px){
-        .nav-logo{
-            display: none;
-        }
-    }
-    
-    .navbar{
-        background-color: rgb(30, 30, 30);
-    }
-    
-    .nav-container{
-        flex-wrap: inherit;
-        padding: 0.5rem 1rem;
-        max-height: 100px;
-    }
-    
-    .nav-list li{
-        list-style: none;
-        display:inline;
-        padding-left:3px;
-        padding-right:3px;
-    }
+/*Section about*/
+.about-container {
+  margin: 0 !important;
+  padding: 20rem 0 20rem 0;
+  background-color: rgb(240, 240, 240);
+}
 
-    .nav-list{
-        margin-bottom: 0;
-    }
-    
-    .nav-social-networks{
-        max-width: 50px;
-    }
+.img-fluid {
+  width: 100%;
+}
 
-    @media screen and (max-width: 1024px){
-        .nav-social-networks{
-            display: none;
-        }
-    }
+.profile-photo {
+  border-radius: 200px;
+  max-width: 50%;
+}
 
-    .btn-login{
-        font-size: 25px;
-        width: 100px;
-        height: 50px;
-        margin-top: 0;
-    }
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .profile-photo {
+    border-radius: 200px;
+    max-width: 70%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .profile-photo {
+    border-radius: 200px;
+    max-width: 50%;
+  }
+}
+.profile-title {
+  word-break: break-word;
+}
 
-    /*Section about*/
-    
-    .about-container{
-        margin: 0!important;
-        padding: 20rem 0 20rem 0;
-        background-color: rgb(240, 240, 240);
-    }
-    
-    .img-fluid{
-        width: 100%;
-    }
-    
-    .profile-photo{
-        border-radius: 200px;
-        max-width: 50%;
-    }
+/*Section education*/
+.section-education {
+  background-color: rgb(230, 230, 230);
+  padding: 20rem 0 20rem 0;
+}
 
-    @media screen and (min-width:481px) and (max-width: 1024px){
-        .profile-photo{
-            border-radius: 200px;
-            max-width: 70%;
-        }
-    }
+.education-container {
+  word-wrap: break-word;
+  padding: 0;
+}
 
-    @media screen and (max-width: 480px){
-        .profile-photo{
-            border-radius: 200px;
-            max-width: 50%;
-        }
-    
-    }
+@media screen and (max-width: 480px) {
+  .bachiller > div.col-7 {
+    padding-top: 1rem;
+  }
+  .seprogramar > div.col-7 {
+    padding-top: 1rem;
+  }
+}
+/*Section skills*/
+.skills {
+  padding: 20rem 1.5rem 20rem 1.5rem;
+  background-color: rgb(240, 240, 240);
+}
 
-    .profile-title{
-        word-break: break-word;
-    }
+.progress {
+  height: 30px;
+  border-radius: 0 10px 10px 0 !important;
+}
 
-    /*Section education*/
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  border-radius: 10px 0 0 10px;
+}
 
-    .section-education{
-        background-color: rgb(230, 230, 230);
-        padding: 20rem 0 20rem 0;
-    }
+.bg-color-purple {
+  background-color: rgb(76, 76, 173);
+}
 
-    .education-container{
-        word-wrap: break-word;
-        padding: 0;
-    }
+.skill-name {
+  color: #fff !important;
+}
 
-    @media screen and (max-width: 480px){
-        .bachiller>div.col-7{
-            padding-top: 1rem;
-        }
+/*Section proyects*/
+.proyects {
+  background-color: rgb(230, 230, 230);
+  padding: 15rem 0 15rem 0;
+}
 
-        .seprogramar>div.col-7{
-            padding-top: 1rem;
-        }
-    }
-
-    /*Section skills*/
-
-    .skills{
-        padding: 20rem 1.5rem 20rem 1.5rem;
-        background-color: rgb(240, 240, 240);
-    }
-    
-    .progress{
-        height: 30px;
-        border-radius: 0 10px 10px 0!important;
-    }
-
-    .skill{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 0;
-        border-radius: 10px 0 0 10px;
-    }
-
-    .bg-color-purple{
-        background-color: rgb(76, 76, 173);
-    }
-
-    .skill-name{
-        color: #fff!important;
-    }
-    /*Section proyects*/
-    .proyects{
-        background-color: rgb(230, 230, 230);
-        padding: 15rem 0 15rem 0;
-    }
-
-    .proyect-logo{
-        max-width: 25%;
-    }
+.proyect-logo {
+  max-width: 25%;
+}/*# sourceMappingURL=styles.css.map */
