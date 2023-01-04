@@ -69,9 +69,6 @@
     display: none;
   }
 }
-.navbar {
-  background-color: rgb(30, 30, 30);
-}
 
 .nav-container {
   flex-wrap: inherit;
