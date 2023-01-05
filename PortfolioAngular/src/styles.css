@@ -14,7 +14,7 @@
   flex: 1;
 }
 
-.flex {
+.flex-cent {
   align-items: center;
   display: flex;
   justify-content: center;
@@ -35,10 +35,10 @@
   h3 {
     font-size: 1.25rem;
   }
-  .flex {
+  .flex-cent {
     flex-direction: column;
   }
-  .flex > div {
+  .flex-cent > div {
     width: 100%;
   }
 }
