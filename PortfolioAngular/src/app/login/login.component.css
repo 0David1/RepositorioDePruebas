@@ -1,0 +1,23 @@
+.error{
+    color:red
+  }
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+    width: 350px;
+    height: 320px;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+@media screen and (max-width:480px){
+    .login{
+    max-width: 90%;
+    }    
+}

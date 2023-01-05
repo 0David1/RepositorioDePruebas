@@ -1,9 +1,16 @@
-.body{
+$color1: rgb(240, 240, 240);
+$color2: rgb(230, 230, 230);
+
+
+body{
     overflow-x: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     justify-content: center;
+    background-attachment: fixed;
+    width: 100%;
     height: 100%;
+    position: relative;
 }
 
 .row {
@@ -115,7 +122,7 @@
 .about-container{
     margin: 0!important;
     padding: 20rem 0 20rem 0;
-    background-color: rgb(240, 240, 240);
+    background-color: $color1;
 }
 
 .img-fluid{
@@ -149,7 +156,7 @@
 /*Section education*/
 
 .section-education{
-    background-color: rgb(230, 230, 230);
+    background-color: $color2;
     padding: 20rem 0 20rem 0;
 }
 
@@ -172,7 +179,7 @@
 
 .skills{
     padding: 20rem 1.5rem 20rem 1.5rem;
-    background-color: rgb(240, 240, 240);
+    background-color: $color1;
 }
 
 .progress{
@@ -197,7 +204,7 @@
 }
 /*Section proyects*/
 .proyects{
-    background-color: rgb(230, 230, 230);
+    background-color: $color2;
     padding: 15rem 0 15rem 0;
 }
 
