@@ -23,7 +23,7 @@ export class LoginComponent implements OnInit{
    }
 
   get MailValid() {
-    return false
+    return this.Mail?.touched && !this.Mail?.valid
   }
 
   get Password(){

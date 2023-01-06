@@ -1,12 +1,11 @@
 html, body {
   height: 100%;
   margin: 0;
-  display: flex;
   flex-direction: column;
 }
 
 body {
-  overflow-x: auto;
+  overflow: auto;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
   justify-content: center;
@@ -33,7 +32,7 @@ body {
     font-size: x-large;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   h1 {
     font-size: 1.5rem;
   }
@@ -71,7 +70,7 @@ body {
   margin-right: 25px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .nav-logo {
     display: none;
   }
@@ -125,13 +124,13 @@ body {
   max-width: 50%;
 }
 
-@media screen and (min-width: 481px) and (max-width: 1024px) {
+@media screen and (min-width: 601px) and (max-width: 1024px) {
   .profile-photo {
     border-radius: 200px;
     max-width: 70%;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .profile-photo {
     border-radius: 200px;
     max-width: 50%;
@@ -152,7 +151,7 @@ body {
   padding: 0;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .bachiller > div.col-7 {
     padding-top: 1rem;
   }

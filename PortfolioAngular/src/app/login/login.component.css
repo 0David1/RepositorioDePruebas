@@ -17,8 +17,13 @@
     transform: translate(-50%, -50%);
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:601px){
     .login{
     max-width: 80%;
     }    
+}
+
+.border-danger{
+    border-width: medium;
+    border-color: red;
 }
