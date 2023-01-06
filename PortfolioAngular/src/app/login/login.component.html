@@ -1,3 +1,4 @@
+<div style="min-height: auto;">
 <div class="login bg-black bg-opacity-75 bg-gradient">
 
     <h1 class="text-light">User</h1>
@@ -14,10 +15,8 @@
 
             </div>
 
-            <br/>
-
             <div *ngIf="Mail?.errors  && Mail?.touched">    
-                <p *ngIf="Mail?.hasError('required')" class="error">
+                <p *ngIf="Mail?.hasError('required')" class="error m-0 mt-3">
                     El email es requerido.
                 </p>
                 <p *ngIf="Mail?.hasError('email')" class="error">
@@ -25,21 +24,23 @@
                 </p>
             </div>
 
+            <br/>
+
             <div>
 
                 <input class="form-control" type="password" formControlName="password" placeholder="Password">
 
             </div>
 
-            <br/>
-
             <div *ngIf="Password?.errors && Password?.touched">
 
-                <p *ngIf="Password?.hasError('required')" class="error">El password es requerido.</p>
+                <p *ngIf="Password?.hasError('required')" class="error m-0 mt-3">El password es requerido.</p>
 
                 <p *ngIf="Password?.hasError('minlength')" class="error">El password debe tener al menos 8 caracteres.</p>
 
             </div>
+
+            <br/>
 
             <div>
 
@@ -50,5 +51,7 @@
         </form>
 
     </div>
+
+</div>
 
 </div>

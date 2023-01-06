@@ -14,11 +14,11 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 50%);
+    transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width:480px){
     .login{
-    max-width: 90%;
+    max-width: 80%;
     }    
 }
