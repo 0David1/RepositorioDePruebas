@@ -27,11 +27,19 @@
 
             <div>
 
-                <input class="form-control" type="password" name="password" placeholder="Password">
+                <input class="form-control" type="password" formControlName="password" placeholder="Password">
 
             </div>
 
             <br/>
+
+            <div *ngIf="Password?.errors && Password?.touched">
+
+                <p *ngIf="Password?.hasError('required')" class="error">El password es requerido.</p>
+
+                <p *ngIf="Password?.hasError('minlength')" class="error">El password debe tener al menos 8 caracteres.</p>
+
+            </div>
 
             <div>
 
