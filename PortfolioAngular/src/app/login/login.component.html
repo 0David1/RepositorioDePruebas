@@ -37,6 +37,10 @@
 
                 <p *ngIf="Password?.hasError('minlength')" class="error">El password debe tener al menos 8 caracteres.</p>
 
+                <p *ngIf="Password?.hasError('maxlength')" class="error">El password debe tener menos de 16 caracteres.</p>
+
+                <p *ngIf="Password?.hasError('pattern')" class="error">El password debe tener al menos una minuscula, una mayuscula y un numero.</p>
+
             </div>
 
             <br/>
