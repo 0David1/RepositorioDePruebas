@@ -34,6 +34,10 @@ export class LoginComponent implements OnInit{
     return this.Password?.touched && !this.Password?.valid;
   }
 
+  get ButtonDisabled(){
+    return !this.Password?.valid || !this.Mail?.valid;
+  }
+
   onEnviar(event: Event){
     // Detenemos la propagación o ejecución del compotamiento submit de un form
     event.preventDefault; 
