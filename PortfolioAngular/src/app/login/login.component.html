@@ -1,3 +1,4 @@
+<div class="center-box">
 <div class="login bg-black bg-opacity-75 bg-gradient">
 
     <h1 class="text-light">User</h1>
@@ -15,7 +16,7 @@
             </div>
 
             <div *ngIf="Mail?.errors  && Mail?.touched">    
-                <p *ngIf="Mail?.hasError('required')" class="error m-0 mt-3">
+                <p *ngIf="Mail?.hasError('required')" class="error">
                     El email es requerido.
                 </p>
                 <p *ngIf="Mail?.hasError('email')" class="error">
@@ -33,13 +34,13 @@
 
             <div *ngIf="Password?.errors && Password?.touched">
 
-                <p *ngIf="Password?.hasError('required')" class="error m-0 mt-3">El password es requerido.</p>
+                <p *ngIf="Password?.hasError('required')" class="error">El password es requerido.</p>
 
-                <p *ngIf="Password?.hasError('minlength')" class="error error m-0 mt-3">El password debe tener al menos 8 caracteres.</p>
+                <p *ngIf="Password?.hasError('minlength')" class="error">El password debe tener al menos 8 caracteres.</p>
 
-                <p *ngIf="Password?.hasError('maxlength')" class="error error m-0 mt-3">El password debe tener menos de 16 caracteres.</p>
+                <p *ngIf="Password?.hasError('maxlength')" class="error">El password debe tener menos de 16 caracteres.</p>
 
-                <p *ngIf="Password?.hasError('pattern')" class="error error m-0 mt-3">El password debe tener al menos una minuscula, una mayuscula y un numero.</p>
+                <p *ngIf="Password?.hasError('pattern')" class="error">El password debe tener al menos una minuscula, una mayuscula y un numero.</p>
 
             </div>
 
@@ -55,4 +56,5 @@
 
     </div>
 
+</div>
 </div>

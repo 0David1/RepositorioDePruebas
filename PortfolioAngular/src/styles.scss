@@ -14,6 +14,7 @@ body{
     justify-content: center;
     background-attachment: fixed;
     position: relative;
+    scroll-behavior: smooth;
 }
 
 .row {
@@ -25,7 +26,6 @@ body{
 }
 
 .flex-cent {
-    align-items: center;
     display: flex;
     justify-content: center;
 }
@@ -163,9 +163,9 @@ body{
     padding: 20rem 0 20rem 0;
 }
 
-.education-container{
-    word-wrap: break-word;
-    padding: 0;
+.spacing-row{
+    display: grid;
+    row-gap: 50px;
 }
 
 @media screen and (max-width: 600px){
